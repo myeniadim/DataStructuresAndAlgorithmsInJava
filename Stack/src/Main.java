@@ -7,5 +7,7 @@ public class Main {
         System.out.println(StackOperations.search(newStack, 21));
         StackOperations.removeElement(newStack,10);
         newStack.display();
+        String paranthesis = "[()[{}]()]";
+        System.out.println(Parenthesis.areParenthesisBalance(paranthesis));
     }
 }
